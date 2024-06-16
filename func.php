@@ -1,5 +1,5 @@
 <?php 
-$conn = mysqli_connect("sql306.infinityfree.com", "if0_36069592", "LzIms0j9Jjc", "if0_36069592_sijago", 3306);
+$conn = mysqli_connect("localhost","root","","sijago");
 
 function query($query)
 {
